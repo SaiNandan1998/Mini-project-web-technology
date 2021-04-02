@@ -1,0 +1,236 @@
+
+<html>
+<body>
+<head>
+<title>Front end Mini Project </title>
+</head>
+   
+  <body>
+    <div class="container-fluid">
+	  <div class="Content-block" id="block1">
+        <img src="C:/Users/laksh/Desktop/html/Dproject/design Assinement/Images/img.jpeg" alt="Snow" height=250px style="width:100%; ">
+        <div class="centered"><h2>THE ULTIMATE</h2>
+	                          <h1> CARRY-ON </h1>
+	                          <h3> For a limited time Create a 3-step travel<br></br>
+	                           regimen to take with you in our watercolor canvas case<br></br>
+	                           All yours at an exclusive value of of $190 </h3>
+		</div>
+							   
+       </div>
+      
+	</div>                         
+	   
+      <div id="block2"class="instruction-header">
+	       <p> Please select the product using Select Button<br></br>
+	         Automaticcaly You can add to Bag.</P>
+	  </div>
+	  
+	  
+	  <div id="block3" class="product-section">
+	     
+	     <div class="row">
+		     <div class="col-md-2"> 
+			 </div>
+			 
+			 <!--cleanse section code-->
+			 <div class="col-md-1">
+			     <h5>1CLEANSE</h5>
+			     <div class="c1img1"id="img1">
+			      <figure>
+				  
+                      <img src="images/cleasing.jpg" alt="cleasing foam" height="80px" width="50px" id="c1">
+					  <p class="or"> or </P>
+		              <figcaption> THE CLEASING FOAM </figcaption> <h7>	Delicate Foam 3.3</h7> 
+				      <input type="button" name="button1" id="btn" value="SELECT">
+		
+				   </figure>
+				   
+				 </div>
+			</div>
+		      
+			 			 
+			
+		    <div class="col-md-1">	  
+			   <div class="c1img2" id="img2">
+			      <figure>
+				  
+			          <img title="Title Tag Goes Here" src="images/gel.jpg" alt="cleasing gel" height="80px" width="50px" id="cl1">
+		              <figcaption >THE CLEASING GEL </figcaption> <h7>Foaming Gel 3.3 OZ</h7> 	
+				      <input type="button" name="button1" id="btn1" value="SELECT">
+					  
+				  </figure>
+          	   </div>
+			</div>
+			
+            <div class="col-md-1"> 
+			    <p class="plus">+</P>
+			</div>
+			
+			  
+			  
+			<!--treat section code-->
+		    <div class="col-md-1"> 
+			   <h5>2 TREAT</h5>
+			   <div class="c2img1"id="img3">
+				   
+				      <figure>
+					  
+			          <img src="images/treat.jpg" alt="cleasing foam" height="80px" width="50px" id="cl2">
+					  <p class="or1"> or </P>
+		              <figcaption > THE INTENSIVE MASK </figcaption> <h7>protect 3.3 OZ</h7> 
+		              <input type="button" name="button" id="btn2" value="SELECT">
+					  
+					  </figure>
+		       </div>
+		    </div>
+				 
+			<div class="col-md-1"> 
+				<div class="c2img2"id="img4">
+				        <figure>
+						
+		                <img src="images/treatgel.jpg" alt="cleasing foam" height="80px" width="50px" id="cl3">
+		                <figcaption> THE TREATEMENT LOTION </figcaption> <h7> Energize 3.3 OZ </h7> 	
+		                <input type="button" name="button" id="btn3" value="SELECT">
+						
+						</figure>
+		         </div>
+		    </div>
+				 
+			<div class="col-md-1">
+		       <p class="plus">+</P>
+			</div>
+				
+			<!--moisturize section code-->	
+			<div class="col-md-1"> 
+				<h5>3MOISTURIZE</h5>
+		        <div class="c3img1"id="img5">
+					<figure>
+					
+		            <img src="images/lm.jpg" alt="cleasing foam" height="60px" width="70px" id="cl4">
+					<p class="or2"> or </P>
+		            <figcaption> CREAME DE LA MER </figcaption>	 <h7>Ultra Rich dewy 3.3 OZ</h7> 
+		            <input type="button" name="button" id="btn4" value="SELECT">
+					
+					</figure>
+		        </div>
+			</div>
+			
+			<div class="col-md-1"> 
+			    <div class="c3img2"id="img6">
+				  <figure>
+				  
+		          <img src="images/lmm.jpg" alt="cleasing foam" height="60px" width="70px" id="cl5">
+		          <figcaption>MOISTURIZER CREAM </figcaption> <h7> Weightl Luminous 0.5 OZ </h7>	
+		          <input type="button" name="button" id="btn5" value="SELECT">
+				  
+				  </figure>
+		        </div>
+	          </div>
+			
+		    <div class="col-md-2"> 
+			</div>
+		 
+		    </div>
+		 
+		</div>
+		 
+		 
+	    <div id="block4" class="bag-section">
+		  
+		       <div class="row">
+			        <div class="col-md-2"> 
+			        </div>
+					
+					<!--drag and drag bag-->
+					<div class="header">
+			            <div class="col-md-1" id="iheader"> 
+			            <p class="text"> Please Select the Product to Add</p>
+					</div>
+					
+					<div class="col-md-4" id="bag"> 
+			           <img src="images/bag.jpg" alt="bag" height=250px width=400px id="cl6">
+	   	            </div>
+				    </div>
+				
+				   
+			         <!--regimen-->
+					 <div class="regim">
+			         <div class="col-md-3" style= "border:2px dotted black">
+					   <h6>YOUR REGIMEN</h6>			   
+					   <div class="r2c3img4"id="img10">
+				        <figure>
+						
+		                <img src="images/treat.jpg" alt="cleasing foam" height="80px" width="50px" id="cl9">
+		                <input type="button" name="button" id="btn9" value="REMOVE" >
+						
+						</figure>
+		             </div>
+					 
+					 <div class="r2c3img5"id="img11">
+					     <figure>
+						 
+				          <img src="images/treatgel.jpg" alt="cleasing foam" height="80px" width="50px" id="cl8">
+		                  <input type="button" name="button" id="btn10" value="REMOVE">
+						  
+					      </figure>
+		             </div>
+					 
+					 <div class="r2c3img6"id="img12">
+					     <figure>
+						 
+				          <img src="images/lmm.jpg" alt="cleasing foam" height="60px" width="70px" id="cl8">
+		                  <input type="button" name="button" id="btn11" value="REMOVE">
+						  
+					      </figure>
+		             </div>
+					 
+
+					   <div class="r2c3img1"id="img7">
+						 <figure>
+						 
+		                 <img src="images/lm.jpg" alt="cleasing foam" height="60px" width="70px" id="cl7">
+		                 <input type="button" name="button" id="btn6" value="REMOVE">
+						 
+						 </figure>
+		              </div>
+					
+                     <div class="r2c3img2"id="img8">
+					     <figure>
+						 
+				          <img src="images/gel.jpg" alt="cleasing foam" height="80px" width="50px" id="cl8">
+		                  <input type="button" name="button" id="btn7" value="REMOVE">
+						  
+					      </figure>
+		             </div>
+					 
+					 <div class="r2c3img3"id="img9">
+				        <figure>
+						
+		                <img src="images/cleasing.jpg" alt="cleasing foam" height="80px" width="50px" id="cl9">
+		                <input type="button" name="button" id="btn8" value="REMOVE" >
+						
+						</figure>
+		             </div>
+					 <div class="adtb"id="atb">
+				 
+				        <label for="st" id="sb">SUB TOTAL $190:</label> 
+						<input type="button" name="button" id="adt" value="ADD TO BAG">
+						
+						
+		             </div>
+            
+					
+				     </div>
+				   </div>
+				
+                
+			  </div> 
+			  
+	    </div>
+     	     
+	
+	       
+	
+   
+ </body>
+ </html> 

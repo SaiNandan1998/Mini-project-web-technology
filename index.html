@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang='en'>
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+	 <title> The Ultimate Carry-On </title>
+	 
+	 <!--bootstrap link-->  
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+	 integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+	 <!--internal Css link--> 	
+	 <link rel="stylesheet" href="C:/Users/laksh/Desktop/html/Dproject/design Assinement/css/styles.css">
+	  
+	  <!--jquery link--> 
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+         
+    <script>
+		 
+	$(document).ready(function(){
+	   
+       $(".r2c3img2").hide();
+	   $(".r2c3img1").hide();
+	   $(".r2c3img3").hide();
+	   $(".r2c3img4").hide();
+	   $(".r2c3img5").hide();
+	   $(".r2c3img6").hide();
+	   $("#adt").hide();
+	   $("#sb").hide();
+	   
+       var count = 0;
+	   var cou = 0;
+	  
+
+
+   // function for select button    
+  function selectedp(sbt,usbt,or,usimg,simg,simgsr,rgp1s,rgp2s,rgp3s,rgp4s,rgp5s,rgp6s,rgp1,rgp2,rgp3,rgp4,rgp5,rgp6,adt,sb){
+  	   
+       (sbt).hide("slow");
+       (usbt).hide("slow");
+	   (or).hide("slow");
+	   (usimg).fadeTo(300,0.5);
+	    
+		
+        
+      if(simgsr == rgp1s){
+		 (simg).hide("slow");
+	     (rgp1).show("slow");
+	   }
+	   if(simgsr == rgp2s){ 
+		 (simg).hide("slow");
+	     (rgp2).show("slow");
+	   }
+	   if(simgsr == rgp3s){
+		 (simg).hide("slow");
+	     (rgp3).show("slow");
+	   }
+	   if(simgsr == rgp4s){ 
+		 (simg).hide("slow");
+	     (rgp4).show("slow");
+	   }
+	   if(simgsr == rgp5s){
+		 (simg).hide("slow");
+	     (rgp5).show("slow");
+	   }
+	   if(simgsr == rgp6s){
+		 (simg).hide("slow");
+	     (rgp6).show("slow");
+	   }
+	   
+	   count++;
+	 
+	  if (count==3 ||count==6 || count==9 || count==12 ){
+	    (adt).show("slow");
+	    (sb).show("slow");
+	   }
+	  
+	   }
+	   
+	   
+	   
+	   // giving parametres for select button
+       $('#btn').click(function(){ 
+        
+		selectedp($("#btn"),$("#btn1"),$(".or"),$(".c1img2"),$(".c1img1"),
+		$("#img1 img").attr("src"),$("#img7 img").attr("src"),$("#img8 img").attr("src"),
+		$("#img9 img").attr("src"),$("#img10 img").attr("src"),$("#img11 img").attr("src"),$("#img12 img").attr("src"),
+		$("#img7"),$("#img8"),$("#img9"),$("#img10"),$("#img11"),$("#img12"),$("#adt"),$("#sb"));
+	      
+	   });
+	   
+	   
+	   $('#btn1').click(function(){ 
+	   
+	   selectedp($("#btn1"),$("#btn"),$(".or"),$(".c1img1"),$(".c1img2"),
+		$("#img2 img").attr("src"),$("#img7 img").attr("src"),$("#img8 img").attr("src"),
+		$("#img9 img").attr("src"),$("#img10 img").attr("src"),$("#img11 img").attr("src"),$("#img12 img").attr("src"),
+		$("#img7"),$("#img8"),$("#img9"),$("#img10"),$("#img11"),$("#img12"),$("#adt"),$("#sb"));
+	    
+	   });
+	   
+	   
+	   $('#btn2').click(function(){ 
+	   
+	   selectedp($("#btn2"),$("#btn3"),$(".or1"),$(".c2img2"),$(".c2img1"),
+		$("#img3 img").attr("src"),$("#img7 img").attr("src"),$("#img8 img").attr("src"),
+		$("#img9 img").attr("src"),$("#img10 img").attr("src"),$("#img11 img").attr("src"),$("#img12 img").attr("src"),
+		$("#img7"),$("#img8"),$("#img9"),$("#img10"),$("#img11"),$("#img12"),$("#adt"),$("#sb"));
+	       
+	   });
+	  
+	  
+	   $('#btn3').click(function(){ 
+	  
+	  selectedp($("#btn3"),$("#btn2"),$(".or1"),$(".c2img1"),$(".c2img2"),
+		$("#img4 img").attr("src"),$("#img7 img").attr("src"),$("#img8 img").attr("src"),
+		$("#img9 img").attr("src"),$("#img10 img").attr("src"),$("#img11 img").attr("src"),$("#img12 img").attr("src"),
+		$("#img7"),$("#img8"),$("#img9"),$("#img10"),$("#img11"),$("#img12"),$("#adt"),$("#sb"));
+        
+	   });
+	   
+	   
+	   
+	   $('#btn4').click(function(){ 
+	   
+        selectedp($("#btn4"),$("#btn5"),$(".or2"),$(".c3img2"),$(".c3img1"),
+		$("#img5 img").attr("src"),$("#img7 img").attr("src"),$("#img8 img").attr("src"),
+		$("#img9 img").attr("src"),$("#img10 img").attr("src"),$("#img11 img").attr("src"),$("#img12 img").attr("src"),
+		$("#img7"),$("#img8"),$("#img9"),$("#img10"),$("#img11"),$("#img12"),$("#adt"),$("#sb"));
+	   
+	   });
+	   
+	   
+	   
+	   $('#btn5').click(function(){ 
+	   
+	   selectedp($("#btn5"),$("#btn4"),$(".or2"),$(".c3img1"),$(".c3img2"),
+		$("#img6 img").attr("src"),$("#img7 img").attr("src"),$("#img8 img").attr("src"),
+		$("#img9 img").attr("src"),$("#img10 img").attr("src"),$("#img11 img").attr("src"),$("#img12 img").attr("src"),
+		$("#img7"),$("#img8"),$("#img9"),$("#img10"),$("#img11"),$("#img12"),$("#adt"),$("#sb"));
+		
+	   });
+	  
+	   
+	
+     
+	   
+	   //function for remove button 
+	  function remove(rgp1,rgps1,img1sr,img2sr,img3sr,img4sr,img5sr,img6sr
+	  ,img1,im1b,img2,im2b,im1or,img3,im3b,img4,im4b,im2or
+	  ,img5,im5b,img6,im6b,im3or,adt,sb){
+	    
+		 if(rgps1 == img1sr){
+		           (rgp1).hide("slow");
+			       (img1).show("slow");
+				   (im1b).show("slow");
+				   (im2b).show("slow");
+				   (im1or).show("slow");
+                   (img2).fadeTo("slow",1.0);				   
+		 }
+		 
+		 if(rgps1 == img2sr){
+		           (rgp1).hide("slow");
+			       (img2).show("slow");
+				   (im1b).show("slow");
+				   (im2b).show("slow");
+				   (im1or).show("slow");
+				   (img1).fadeTo("slow",1.0);
+			   }
+		 if(rgps1 == img3sr){
+		           (rgp1).hide("slow");
+			       (img3).show("slow");
+				   (im3b).show("slow");
+				   (im4b).show("slow");
+				   (im2or).show("slow");
+				   (img4).fadeTo("slow",1.0);
+	   }
+	   
+	   if(rgps1 == img4sr){
+	               (rgp1).hide("slow");
+			       (img4).show("slow");
+				   (im3b).show("slow");
+				   (im4b).show("slow");
+				   (im2or).show("slow");
+				   (img3).fadeTo("slow",1.0);
+				   
+	   }
+	   
+	   if(rgps1 == img5sr){
+		           (rgp1).hide("slow");
+			       (img5).show("slow");
+				   (im5b).show("slow");
+				   (im6b).show("slow");
+				   (im3or).show("slow");
+				   (img6).fadeTo("slow",1.0);
+	   }          
+	   
+	   if(rgps1 == img6sr){
+	               (rgp1).hide("slow");
+			       (img6).show("slow");
+				   (im5b).show("slow");
+				   (im6b).show("slow");
+				   (im3or).show("slow");
+				   (img5).fadeTo("slow",1.0);
+	   }
+	  
+	   cou++;
+	   
+	   if(count>=1){
+	               (adt).hide("slow");
+	               (sb).hide("slow");
+	     
+		           }
+	   
+	   }
+	   
+	   
+	   
+	   // giving parameters for remove button 
+	   $("#btn6").click(function(){ 
+	   
+	   remove($("#img7"),$("#img7 img").attr("src"),$("#img1 img").attr("src"),$("#img2 img").attr("src"),$("#img3 img").attr("src")
+	   ,$("#img4 img").attr("src"),$("#img5 img").attr("src"),$("#img6 img").attr("src"),$("#img1")
+	   ,$("#btn"),$("#img2"),$("#btn1"),$(".or"),$("#img3"),$("#btn2"),$("#img4"),$("#btn3"),$(".or1"),$("#img5"),$("#btn4"),$("#img6"),$("#btn5"),$(".or2")
+	    ,$("#adt"),$("#sb"));
+	   
+	  });
+	  
+	  
+	   $("#btn7").click(function(){ 
+	   
+	   remove($("#img8"),$("#img8 img").attr("src"),$("#img1 img").attr("src"),$("#img2 img").attr("src"),$("#img3 img").attr("src")
+	   ,$("#img4 img").attr("src"),$("#img5 img").attr("src"),$("#img6 img").attr("src"),$("#img1")
+	   ,$("#btn"),$("#img2"),$("#btn1"),$(".or"),$("#img3"),$("#btn2"),$("#img4"),$("#btn3"),$(".or1"),$("#img5"),$("#btn4"),$("#img6"),$("#btn5"),$(".or2")
+	    ,$("#adt"),$("#sb"));
+	   
+	   });
+	   
+	   $("#btn8").click(function(){ 
+	   
+	   remove($("#img9"),$("#img9 img").attr("src"),$("#img1 img").attr("src"),$("#img2 img").attr("src"),$("#img3 img").attr("src")
+	   ,$("#img4 img").attr("src"),$("#img5 img").attr("src"),$("#img6 img").attr("src"),$("#img1")
+	   ,$("#btn"),$("#img2"),$("#btn1"),$(".or"),$("#img3"),$("#btn2"),$("#img4"),$("#btn3"),$(".or1"),$("#img5"),$("#btn4"),$("#img6"),$("#btn5"),$(".or2")
+	    ,$("#adt"),$("#sb"));
+	   });
+	  
+	  
+       $("#btn9").click(function(){ 
+	   
+	   remove($("#img10"),$("#img10 img").attr("src"),$("#img1 img").attr("src"),$("#img2 img").attr("src"),$("#img3 img").attr("src")
+	   ,$("#img4 img").attr("src"),$("#img5 img").attr("src"),$("#img6 img").attr("src"),$("#img1")
+	   ,$("#btn"),$("#img2"),$("#btn1"),$(".or"),$("#img3"),$("#btn2"),$("#img4"),$("#btn3"),$(".or1"),$("#img5"),$("#btn4"),$("#img6"),$("#btn5"),$(".or2")
+	     ,$("#adt"),$("#sb"));
+	   
+	   });
+
+
+       $("#btn10").click(function(){ 
+	   
+	   remove($("#img11"),$("#img11 img").attr("src"),$("#img1 img").attr("src"),$("#img2 img").attr("src"),$("#img3 img").attr("src")
+	   ,$("#img4 img").attr("src"),$("#img5 img").attr("src"),$("#img6 img").attr("src"),$("#img1")
+	   ,$("#btn"),$("#img2"),$("#btn1"),$(".or"),$("#img3"),$("#btn2"),$("#img4"),$("#btn3"),$(".or1"),$("#img5"),$("#btn4"),$("#img6"),$("#btn5"),$(".or2")
+	    ,$("#adt"),$("#sb"));
+	   
+	   });	   
+	  
+	  
+	   $("#btn11").click(function(){ 
+	   
+	   remove($("#img12"),$("#img12 img").attr("src"),$("#img1 img").attr("src"),$("#img2 img").attr("src"),$("#img3 img").attr("src")
+	   ,$("#img4 img").attr("src"),$("#img5 img").attr("src"),$("#img6 img").attr("src"),$("#img1")
+	   ,$("#btn"),$("#img2"),$("#btn1"),$(".or"),$("#img3"),$("#btn2"),$("#img4"),$("#btn3"),$(".or1"),$("#img5"),$("#btn4"),$("#img6"),$("#btn5"),$(".or2")
+	     ,$("#adt"),$("#sb")); 
+	   });
+	    
+		
+	  $("#adt").click(function(){
+	  
+	    $("#img7,#img8,#img9,#img10,#img11,#img12,#adt,#sb").hide("slow");
+	    
+	  });
+		
+	});
+	
+   
+
+      
+	
+	</script>
+		   
+   
+   </head>
+   
+  <body>
+    <div class="container-fluid">
+	  <div class="Content-block" id="block1">
+        <img src="C:/Users/laksh/Desktop/html/Dproject/design Assinement/Images/img.jpeg" alt="Snow" height=250px style="width:100%; ">
+        <div class="centered"><h2>THE ULTIMATE</h2>
+	                          <h1> CARRY-ON </h1>
+	                          <h3> For a limited time Create a 3-step travel<br></br>
+	                           regimen to take with you in our watercolor canvas case<br></br>
+	                           All yours at an exclusive value of of $190 </h3>
+		</div>
+							   
+       </div>
+      
+	</div>                         
+	   
+      <div id="block2"class="instruction-header">
+	       <p> Please select the product using Select Button<br></br>
+	         Automaticcaly You can add to Bag.</P>
+	  </div>
+	  
+	  
+	  <div id="block3" class="product-section">
+	     
+	     <div class="row">
+		     <div class="col-md-2"> 
+			 </div>
+			 
+			 <!--cleanse section code-->
+			 <div class="col-md-1">
+			     <h5>1CLEANSE</h5>
+			     <div class="c1img1"id="img1">
+			      <figure>
+				  
+                      <img src="images/cleasing.jpg" alt="cleasing foam" height="80px" width="50px" id="c1">
+					  <p class="or"> or </P>
+		              <figcaption> THE CLEASING FOAM </figcaption> <h7>	Delicate Foam 3.3</h7> 
+				      <input type="button" name="button1" id="btn" value="SELECT">
+		
+				   </figure>
+				   
+				 </div>
+			</div>
+		      
+			 			 
+			
+		    <div class="col-md-1">	  
+			   <div class="c1img2" id="img2">
+			      <figure>
+				  
+			          <img title="Title Tag Goes Here" src="images/gel.jpg" alt="cleasing gel" height="80px" width="50px" id="cl1">
+		              <figcaption >THE CLEASING GEL </figcaption> <h7>Foaming Gel 3.3 OZ</h7> 	
+				      <input type="button" name="button1" id="btn1" value="SELECT">
+					  
+				  </figure>
+          	   </div>
+			</div>
+			
+            <div class="col-md-1"> 
+			    <p class="plus">+</P>
+			</div>
+			
+			  
+			  
+			<!--treat section code-->
+		    <div class="col-md-1"> 
+			   <h5>2 TREAT</h5>
+			   <div class="c2img1"id="img3">
+				   
+				      <figure>
+					  
+			          <img src="images/treat.jpg" alt="cleasing foam" height="80px" width="50px" id="cl2">
+					  <p class="or1"> or </P>
+		              <figcaption > THE INTENSIVE MASK </figcaption> <h7>protect 3.3 OZ</h7> 
+		              <input type="button" name="button" id="btn2" value="SELECT">
+					  
+					  </figure>
+		       </div>
+		    </div>
+				 
+			<div class="col-md-1"> 
+				<div class="c2img2"id="img4">
+				        <figure>
+						
+		                <img src="images/treatgel.jpg" alt="cleasing foam" height="80px" width="50px" id="cl3">
+		                <figcaption> THE TREATEMENT LOTION </figcaption> <h7> Energize 3.3 OZ </h7> 	
+		                <input type="button" name="button" id="btn3" value="SELECT">
+						
+						</figure>
+		         </div>
+		    </div>
+				 
+			<div class="col-md-1">
+		       <p class="plus">+</P>
+			</div>
+				
+			<!--moisturize section code-->	
+			<div class="col-md-1"> 
+				<h5>3MOISTURIZE</h5>
+		        <div class="c3img1"id="img5">
+					<figure>
+					
+		            <img src="images/lm.jpg" alt="cleasing foam" height="60px" width="70px" id="cl4">
+					<p class="or2"> or </P>
+		            <figcaption> CREAME DE LA MER </figcaption>	 <h7>Ultra Rich dewy 3.3 OZ</h7> 
+		            <input type="button" name="button" id="btn4" value="SELECT">
+					
+					</figure>
+		        </div>
+			</div>
+			
+			<div class="col-md-1"> 
+			    <div class="c3img2"id="img6">
+				  <figure>
+				  
+		          <img src="images/lmm.jpg" alt="cleasing foam" height="60px" width="70px" id="cl5">
+		          <figcaption>MOISTURIZER CREAM </figcaption> <h7> Weightl Luminous 0.5 OZ </h7>	
+		          <input type="button" name="button" id="btn5" value="SELECT">
+				  
+				  </figure>
+		        </div>
+	          </div>
+			
+		    <div class="col-md-2"> 
+			</div>
+		 
+		    </div>
+		 
+		</div>
+		 
+		 
+	    <div id="block4" class="bag-section">
+		  
+		       <div class="row">
+			        <div class="col-md-2"> 
+			        </div>
+					
+					<!--drag and drag bag-->
+					<div class="header">
+			            <div class="col-md-1" id="iheader"> 
+			            <p class="text"> Please Select the Product to Add</p>
+					</div>
+					
+					<div class="col-md-4" id="bag"> 
+			           <img src="images/bag.jpg" alt="bag" height=250px width=400px id="cl6">
+	   	            </div>
+				    </div>
+				
+				   
+			         <!--regimen-->
+					 <div class="regim">
+			         <div class="col-md-3" style= "border:2px dotted black">
+					   <h6>YOUR REGIMEN</h6>			   
+					   <div class="r2c3img4"id="img10">
+				        <figure>
+						
+		                <img src="images/treat.jpg" alt="cleasing foam" height="80px" width="50px" id="cl9">
+		                <input type="button" name="button" id="btn9" value="REMOVE" >
+						
+						</figure>
+		             </div>
+					 
+					 <div class="r2c3img5"id="img11">
+					     <figure>
+						 
+				          <img src="images/treatgel.jpg" alt="cleasing foam" height="80px" width="50px" id="cl8">
+		                  <input type="button" name="button" id="btn10" value="REMOVE">
+						  
+					      </figure>
+		             </div>
+					 
+					 <div class="r2c3img6"id="img12">
+					     <figure>
+						 
+				          <img src="images/lmm.jpg" alt="cleasing foam" height="60px" width="70px" id="cl8">
+		                  <input type="button" name="button" id="btn11" value="REMOVE">
+						  
+					      </figure>
+		             </div>
+					 
+
+					   <div class="r2c3img1"id="img7">
+						 <figure>
+						 
+		                 <img src="images/lm.jpg" alt="cleasing foam" height="60px" width="70px" id="cl7">
+		                 <input type="button" name="button" id="btn6" value="REMOVE">
+						 
+						 </figure>
+		              </div>
+					
+                     <div class="r2c3img2"id="img8">
+					     <figure>
+						 
+				          <img src="images/gel.jpg" alt="cleasing foam" height="80px" width="50px" id="cl8">
+		                  <input type="button" name="button" id="btn7" value="REMOVE">
+						  
+					      </figure>
+		             </div>
+					 
+					 <div class="r2c3img3"id="img9">
+				        <figure>
+						
+		                <img src="images/cleasing.jpg" alt="cleasing foam" height="80px" width="50px" id="cl9">
+		                <input type="button" name="button" id="btn8" value="REMOVE" >
+						
+						</figure>
+		             </div>
+					 <div class="adtb"id="atb">
+				 
+				        <label for="st" id="sb">SUB TOTAL $190:</label> 
+						<input type="button" name="button" id="adt" value="ADD TO BAG">
+						
+						
+		             </div>
+            
+					
+				     </div>
+				   </div>
+				
+                
+			  </div> 
+			  
+	    </div>
+     	     
+	
+	       
+	
+   
+ </body>
+ </html> 

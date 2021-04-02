@@ -1,0 +1,274 @@
+       	 @import url('https://fonts.googleapis.com/css2?family=Suranna&display=swap');
+	 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+	 
+.centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      }
+
+
+
+   .container-fluid {
+     position: relative;
+     text-align: center;
+     color: white;
+     }
+	 h1{
+	 font-family:"suranna",serif;
+	 font-size:45px;
+	 margin-bottom:0x;
+         line-height:2px;
+	 }
+	 h2{
+	 font-family:"Courgette";
+	 font-size:20px;
+	 line-height:10px;
+	 
+	 }
+	 h3 {
+	 font-size:8px;
+	 margin-bottom:10px;
+	 line-height:5px;
+	 
+	 }
+	 h4
+	 {
+	 font-size:1em;
+	 font-family:"Courgette";
+	 }
+	 h5{
+           font-family:"Courgette";
+	   text-align:center;
+	   margin-bottom:35px;
+           font-size:20px;
+	   }
+      
+	 
+         h6{
+
+         font-family:"Courgette";
+         font-size:30px;
+         margin-top:10px;
+         margin-left: 70px;
+          
+         }
+         
+        h7{
+         font-size:10px;
+         font-family:"Courgette";
+         line-height:0px;
+          }
+
+	 p{
+
+	 font-family:"suranna",serif;
+	 font-size:16px;
+	 text-align:center;
+	 line-height:10px;
+	 margin:20px 0px 20px 0px;
+
+	 }
+
+
+
+	 figcaption 
+	 {
+	 font-size:10px;
+         margin:10px 0px 2px 0px;
+          }
+	 
+	 .c1img2{
+
+         margin-top:65px;
+
+          }
+	 
+	 .c2img2{
+         
+	 margin-top:66px;
+        
+	 }
+	 
+         .c3img1{
+
+          margin-top:50px;
+
+          }
+
+	 .c3img2{
+         
+	  margin-top:80px;
+
+	  }
+        
+       input[type=button]:hover{
+           background-color:black;
+           color:white;
+           
+
+        }
+	 
+	 #btn,#btn1,#btn2,#btn3,#btn4,#btn5
+	 {
+
+          line-height:15px;
+          display:block;
+	  margin:10px 15px 0px 0px;
+          padding:0px 13px 0px 13px; 
+
+	  }
+       
+        #btn6,#btn7,#btn8,#btn9,#btn10,#btn11
+	 {
+
+          line-height:15px;
+          display:block;
+	  margin:10px 15px 0px 0px;
+          padding:0px 5px 0px 5px; 
+
+	  }
+        
+	 
+	 .pd1{
+
+	  display:block;
+
+	   }
+     
+	 
+          p.text{
+
+	  margin-top:100px;
+	  font-size:1em;
+	  line-height:15px;
+
+	  }
+	 
+	  p.plus{
+
+	  font-size:50px;
+	  margin-top:100px;
+	 
+	  }
+	 
+         
+          #btn6,#btn7{
+
+	  line-height:15px;
+          margin-bottom:10px;
+          padding:0px 5px 0px 5px;
+         
+          }
+        
+       
+         .regim{
+
+	  display:block;
+                   }
+
+         .r2c3img1{
+
+         float:right;
+         margin:40px 0px 15px 0px;
+         float:right;
+          }
+
+        .r2c3img2{
+
+         margin:20px 0px 15px 0px;
+         float:right;
+      
+          }
+
+        .r2c3img3{
+
+         margin:20px 0px 15px 0px;
+         float:right;
+
+          }
+      .r2c3img4{
+
+         margin:20px 0px 15px 0px;
+         float:right;
+      
+          }
+      .r2c3img5{
+
+         margin:20px 0px 15px 0px;
+         float:right;
+
+          }
+      .r2c3img6{
+
+         margin:40px 0px 15px 0px;
+         float:right;
+
+          }
+
+       
+         #iheader{
+
+          margin-top:100px;
+
+          }
+
+         #bag{
+          margin-top:100px;
+          }
+ 
+         .col-md-3
+         {
+        margin-top:120px;
+          }
+	 
+         #btnB
+         {
+         margin:10px 0px 10px 0px;
+         line-height:20px;
+         }
+       	 
+         p.or{
+          
+          font-size:20px;
+          float:right;
+         
+          }
+  
+        p.or1{
+          
+          font-size:20px;
+          float:right;
+         
+          }  
+
+        p.or2{
+          
+          font-size:20px;
+          float:right;
+         
+          }
+
+   
+	 label 
+         {
+ 
+        margin:10px 0px 0px 0px;
+        text-align: right;
+        clear:both;
+        float:left;
+   
+         }
+	
+       #adt{
+       
+       margin:10px;
+       padding:0px 1px 0px 1px;
+       
+
+         }
+
+       #atb{
+       margin:0px 0px 0px 60px;
+           }
