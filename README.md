@@ -3,6 +3,6 @@
 Hi there,
 
  My name is Nandan.
- This Mini project is an part of web-technologies Training  in CSS .
+ This Mini project is an part of web-technologies Training   .
  
 
